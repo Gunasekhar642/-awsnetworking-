@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "gunaksekh03-tf-test-bucket"
+    bucket = "guna-terraform-state-883308"
     key    = "networkingstatefile"
     region = "ap-south-2"
   }
